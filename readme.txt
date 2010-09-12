@@ -11,7 +11,7 @@ This plugin adds a shorttag for embedding ZippyShare audio files.
 
 This plugin adds a shorttag for embedding ZippyShare audio files.
 
-Use it like this: [zippyshare www=www39 width=680 fcolor=000000 lcolor=000000 bcolor=ffffff volume=80]file-id[/zippyshare], where width, fcolor, lcolor, bcolor and volume are optional parameters.. If you do not specify them, the values set in settings page are used. 
+Use it like this: [zippyshare www=www39 width=680 fcolor=000000 lcolor=000000 bcolor=ffffff volume=80]file-id[/zippyshare], where width, fcolor, lcolor, bcolor and volume are optional parameters. If you do not specify them, the values set in settings page are used. 
 
 Variable file-id can be found in the URL, for example: http://www39.zippyshare.com/v/34497688/file.html . That 34497688 is file-id and subdomain www39 is server number, which are needed to paste between [zippyshare www=www39] and [/zippyshare].
 
