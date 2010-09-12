@@ -11,9 +11,11 @@ This plugin adds a shorttag for embedding ZippyShare audio files.
 
 This plugin adds a shorttag for embedding ZippyShare audio files.
 
-Use it like this: [zippyshare www=www39 width=680 fcolor=000000 lcolor=000000 bcolor=ffffff volume=80]file-id[/zippyshare], where width, fcolor, lcolor, bcolor and volume are optional parameters. If you do not specify them, the values set in settings page are used. 
+Since version 1.1 you should use it like this: [zippyshare width=680 fcolor=00000 lcolor=000000 bcolor=ffffff volume=80]http://www39.zippyshare.com/v/34497688/file.html[/zippyshare], where all parameters are optional and when not specified, the default values from settings are used. Sometimes the width isn't accurate (for example: for 620px player results from 618px settings).
 
-Variable file-id can be found in the URL, for example: http://www39.zippyshare.com/v/34497688/file.html . That 34497688 is file-id and subdomain www39 is server number, which are needed to paste between [zippyshare www=www39] and [/zippyshare].
+This way: [zippyshare www=www39 width=680 fcolor=000000 lcolor=000000 bcolor=ffffff volume=80]file-id[/zippyshare] is still supported, but will not be developed in future. Width, fcolor, lcolor, bcolor and volume are optional parameters. If you do not specify them, the values set in settings page are used.
+
+Variable file-id can be found in the URL, for example: http://www39.zippyshare.com/v/34497688/file.html . That 34497688 is video-id and subdomain www39 is server number, which are needed to paste between [zippyshare www=www39] and [/zippyshare].
 
 == Installation ==
 
@@ -31,10 +33,17 @@ Probably not. There is too much plugins, which do their jobs really well. I just
 
 == Changelog ==
 
+= 1.1 =
+* Shortcode using changed
+* Misc. changes in code
+
 = 1.0 =
 * Initial release, so there are not changes
 
 == Upgrade Notice ==
+
+= 1.1 =
+New shortcode using.
 
 = 1.0 =
 Initial release, so there is not upgrade notice.
